@@ -23,6 +23,7 @@
 		A13617A21EBC473B00C6E3DE /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A136179A1EBC473B00C6E3DE /* Store+CoreDataProperties.swift */; };
 		A13617A61EBC4C1D00C6E3DE /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A13617A51EBC4C1D00C6E3DE /* tesla.jpg */; };
 		A13617A91EBC4C7E00C6E3DE /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13617A81EBC4C7E00C6E3DE /* MaterialView.swift */; };
+		A13617AB1EBC4F7B00C6E3DE /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13617AA1EBC4F7B00C6E3DE /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		A136179A1EBC473B00C6E3DE /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A13617A51EBC4C1D00C6E3DE /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tesla.jpg; sourceTree = "<group>"; };
 		A13617A81EBC4C7E00C6E3DE /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		A13617AA1EBC4F7B00C6E3DE /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				A13617A81EBC4C7E00C6E3DE /* MaterialView.swift */,
+				A13617AA1EBC4F7B00C6E3DE /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13617AB1EBC4F7B00C6E3DE /* ItemCell.swift in Sources */,
 				A13617A01EBC473B00C6E3DE /* Image+CoreDataProperties.swift in Sources */,
 				A136179D1EBC473B00C6E3DE /* ItemType+CoreDataClass.swift in Sources */,
 				A13617811EBC453900C6E3DE /* MainVC.swift in Sources */,
@@ -370,6 +374,7 @@
 				A13617921EBC453A00C6E3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
