@@ -222,6 +222,9 @@
                                 <state key="normal" title="Save Item">
                                     <color key="titleColor" red="0.93624703079310767" green="0.93624703079310767" blue="0.93624703079310767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="savePressed:" destination="S34-dK-9ln" eventType="touchUpInside" id="lWM-JH-gsI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2z-k7-iiJ">
                                 <rect key="frame" x="140.5" y="354" width="94" height="21"/>
