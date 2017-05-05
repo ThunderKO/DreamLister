@@ -47,7 +47,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vHG-ka-uvp">
-                                                    <rect key="frame" x="8" y="8" width="358" height="134"/>
+                                                    <rect key="frame" x="8" y="8" width="327" height="134"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tesla.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wz0-kk-uSr">
                                                             <rect key="frame" x="8" y="17" width="100" height="100"/>
@@ -57,7 +57,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tesla Model S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWw-va-eG5">
-                                                            <rect key="frame" x="116" y="8" width="234" height="21"/>
+                                                            <rect key="frame" x="116" y="8" width="203" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="MVW-ob-QEs"/>
                                                             </constraints>
@@ -66,7 +66,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$80,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIM-ua-6zM">
-                                                            <rect key="frame" x="116" y="37" width="234" height="21"/>
+                                                            <rect key="frame" x="116" y="37" width="203" height="21"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="21" id="FYo-X7-wIN"/>
                                                             </constraints>
@@ -75,7 +75,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Someday my dreams will come true and i will own this car. Just you wait." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jpI-vO-EP1">
-                                                            <rect key="frame" x="116" y="66" width="234" height="60"/>
+                                                            <rect key="frame" x="116" y="66" width="203" height="60"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
@@ -264,6 +264,12 @@
                             <color key="tintColor" red="1" green="0.34509803921568627" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="PriceField" destination="Ut5-nM-Ixx" id="Lub-Jw-1IR"/>
+                        <outlet property="detailsField" destination="Xlu-o3-74M" id="5si-mY-obL"/>
+                        <outlet property="storePicker" destination="P5W-3b-1tn" id="TYm-h0-ihp"/>
+                        <outlet property="titleField" destination="QnL-Qb-LWa" id="ELq-4P-J6U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RJJ-VC-szY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -274,7 +280,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sUg-51-UZU" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="eef-0J-6zS">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eef-0J-6zS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
